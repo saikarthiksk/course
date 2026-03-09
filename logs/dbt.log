@@ -160,3 +160,16 @@ https://docs.getdbt.com/docs/configure-your-profile
 
 [0m18:19:15.588400 [debug] [MainThread]: Command `dbt debug` failed at 18:19:15.588237 after 0.29 seconds
 [0m18:19:15.588813 [debug] [MainThread]: Flushing usage events
+[0m17:15:48.670205 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:15:48.810864 | 208b7e59-10d8-492e-bbdf-6e87f4b47290 ==============================
+[0m17:15:48.810864 [info ] [MainThread]: Running with dbt=1.11.7
+[0m17:15:48.811802 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\mesai\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt docs serve', 'use_colors': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m17:15:48.812502 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\DBT\course\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:15:48.813643 [debug] [MainThread]: Command `dbt docs serve` failed at 17:15:48.813475 after 0.28 seconds
+[0m17:15:48.814100 [debug] [MainThread]: Flushing usage events
